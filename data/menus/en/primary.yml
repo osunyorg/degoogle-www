@@ -1,46 +1,39 @@
 ---
 title: Main menu
 items:
-- title: Agenda
-  target: "/agenda/"
+- title: Why DeGoogle?
+  target: "/why-degoogle/"
   kind: page
   new_tab: false
   children: []
-  path: "/events"
-  file: content/en/events/_index.html
-- title: Projects
-  target: "/projects/"
+  path: "/pages/why-degoogle"
+  file: content/en/pages/why-degoogle/_index.html
+- title: About
+  target: "/about/"
   kind: page
   new_tab: false
   children: []
-  path: "/projects"
-  file: content/en/projects/_index.html
-- title: Exhibitions
-  target: "/exhibitions/"
+  path: "/pages/about"
+  file: content/en/pages/about/_index.html
+- title: Volunteer
+  target: "/volunteer/"
   kind: page
   new_tab: false
   children: []
-  path: "/exhibitions"
-  file: content/en/exhibitions/_index.html
-- title: Organizations
-  target: "/organizations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/en/organizations/_index.html
-- title: Posts
+  path: "/pages/volunteer"
+  file: content/en/pages/volunteer/_index.html
+- title: Blog
   target: "/posts/"
   kind: page
   new_tab: false
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
-- title: Persons
-  target: "/persons/"
+- title: Contact
+  target: "/contact/"
   kind: page
   new_tab: false
   children: []
-  path: "/persons"
-  file: content/en/persons/_index.html
+  path: "/pages/contact"
+  file: content/en/pages/contact/_index.html
 
