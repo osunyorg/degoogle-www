@@ -37,7 +37,7 @@ items:
   path: "/pages/contact"
   file: content/en/pages/contact/_index.html
 - title: Start DeGoogling
-  target: https://www.degoogle.osuny.site/
+  target: https://start.degoogle.osuny.site/
   kind: url
   new_tab: true
   children: []
