@@ -6,3 +6,5 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "my.liberaforms.org"
+  - "app.keila.io"
+  - "hcaptcha.com"
