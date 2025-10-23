@@ -1,7 +1,7 @@
 theme: osuny
 _merge: deep
 params:
-  additional_csp: "newassets.hcaptcha.com 'unsafe-inline'"
+  additional_csp: newassets.hcaptcha.com 'unsafe-inline'
   summary:
     position: hero
   search:
