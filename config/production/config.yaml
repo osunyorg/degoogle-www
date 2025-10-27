@@ -24,4 +24,4 @@ deployment:
   workers: 2
   targets:
     - name: "production"
-      URL: "s3://www.degoogle.osuny.site?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
+      URL: "s3://degoogle.online?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
