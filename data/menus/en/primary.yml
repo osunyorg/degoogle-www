@@ -1,13 +1,6 @@
 ---
 title: Main menu
 items:
-- title: Why DeGoogle?
-  target: "/why-degoogle/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/why-degoogle"
-  file: content/en/pages/why-degoogle/_index.html
 - title: About Us
   target: "/about/"
   kind: page
@@ -48,9 +41,4 @@ items:
     children: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
-- title: Start DeGoogling
-  target: https://start.degoogle.osuny.site/
-  kind: url
-  new_tab: true
-  children: []
 
