@@ -48,7 +48,7 @@ items:
     children: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
-- title: Take Action
+- title: For Organisations
   target: ''
   kind: blank
   new_tab: false
@@ -67,6 +67,4 @@ items:
     children: []
     path: "/pages/take-the-degoogle-pledge"
     file: content/en/pages/take-the-degoogle-pledge/_index.html
-  path: "/pages/take-the-degoogle-pledge"
-  file: content/en/pages/take-the-degoogle-pledge/_index.html
 
