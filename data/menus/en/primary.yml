@@ -48,11 +48,18 @@ items:
     children: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
-- title: Get Help
-  target: "/get-help/"
+- title: Take the Pledge
+  target: "/take-the-degoogle-pledge/"
   kind: page
   new_tab: false
-  children: []
-  path: "/pages/get-help"
-  file: content/en/pages/get-help/_index.html
+  children:
+  - title: Get Help
+    target: "/get-help/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/get-help"
+    file: content/en/pages/get-help/_index.html
+  path: "/pages/take-the-degoogle-pledge"
+  file: content/en/pages/take-the-degoogle-pledge/_index.html
 
