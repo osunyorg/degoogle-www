@@ -71,5 +71,12 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: Chat in Real-Time
+    target: "/join-us-on-element-matrix/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/join-us-on-element-matrix"
+    file: content/en/pages/join-us-on-element-matrix/_index.html
 
