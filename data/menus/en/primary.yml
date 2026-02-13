@@ -2,81 +2,112 @@
 title: Main menu
 items:
 - title: Why DeGoogle?
+  slug: why-degoogle
   target: "/why-degoogle/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/why-degoogle"
   file: content/en/pages/why-degoogle/_index.html
 - title: About Us
+  slug: about-us
   target: "/about/"
   kind: page
   new_tab: false
   children:
   - title: Contact
+    slug: contact
     target: "/about/contact/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/about/contact"
     file: content/en/pages/about/contact/_index.html
   - title: Transparency
+    slug: transparency
     target: "/about/transparency/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/about/transparency"
     file: content/en/pages/about/transparency/_index.html
+  descendants_targets:
+  - "/about/contact/"
+  - "/about/transparency/"
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Support Us
+  slug: support-us
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Volunteer
+    slug: volunteer
     target: "/volunteer/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/volunteer"
     file: content/en/pages/volunteer/_index.html
   - title: Donate
+    slug: donate
     target: "/donate/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
+  descendants_targets:
+  - "/donate/"
+  - "/volunteer/"
 - title: For Organisations
+  slug: for-organisations
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Get Help
+    slug: get-help
     target: "/get-help/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/get-help"
     file: content/en/pages/get-help/_index.html
   - title: Take the DeGoogle Pledge
+    slug: take-the-degoogle-pledge
     target: "/take-the-degoogle-pledge/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/take-the-degoogle-pledge"
     file: content/en/pages/take-the-degoogle-pledge/_index.html
+  descendants_targets:
+  - "/get-help/"
+  - "/take-the-degoogle-pledge/"
 - title: Join Us
+  slug: join-us
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Chat in Real-Time
+    slug: chat-in-real-time
     target: "/join-us-on-element-matrix/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/join-us-on-element-matrix"
     file: content/en/pages/join-us-on-element-matrix/_index.html
+  descendants_targets:
+  - "/join-us-on-element-matrix/"
 
