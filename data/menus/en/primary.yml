@@ -63,9 +63,19 @@ items:
     descendants_targets: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
+  - title: Webinar
+    slug: webinar
+    target: "/webinar/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/webinar"
+    file: content/en/pages/webinar/_index.html
   descendants_targets:
   - "/donate/"
   - "/volunteer/"
+  - "/webinar/"
 - title: For Organisations
   slug: for-organisations
   target: ''
@@ -108,6 +118,16 @@ items:
     descendants_targets: []
     path: "/pages/join-us-on-element-matrix"
     file: content/en/pages/join-us-on-element-matrix/_index.html
+  - title: Webinars
+    slug: webinars
+    target: "/webinar/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/webinar"
+    file: content/en/pages/webinar/_index.html
   descendants_targets:
   - "/join-us-on-element-matrix/"
+  - "/webinar/"
 
