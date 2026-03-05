@@ -34,7 +34,17 @@ items:
     descendants_targets: []
     path: "/pages/about/transparency"
     file: content/en/pages/about/transparency/_index.html
+  - title: About Us
+    slug: about-us
+    target: "/about/about-1/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about/about-1"
+    file: content/en/pages/about/about-1/_index.html
   descendants_targets:
+  - "/about/about-1/"
   - "/about/contact/"
   - "/about/transparency/"
   path: "/pages/about"
