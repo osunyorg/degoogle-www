@@ -118,6 +118,14 @@ items:
     descendants_targets: []
     path: "/pages/join-us-on-element-matrix"
     file: content/en/pages/join-us-on-element-matrix/_index.html
+  - title: Contribute
+    slug: contribute
+    target: https://www.notobigtech.org/volunteer/
+    kind: url
+    new_tab: false
+    children: []
+    descendants_targets: []
   descendants_targets:
   - "/join-us-on-element-matrix/"
+  - https://www.notobigtech.org/volunteer/
 
