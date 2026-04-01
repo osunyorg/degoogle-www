@@ -1,39 +1,21 @@
 ---
 title: Main menu
 items:
-- title: Why DeGoogle?
-  slug: why-degoogle
-  target: "/why-degoogle/"
+- title: Webinars
+  slug: webinars
+  target: "/webinar/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/why-degoogle"
-  file: content/en/pages/why-degoogle/_index.html
+  path: "/pages/webinar"
+  file: content/en/pages/webinar/_index.html
 - title: About Us
   slug: about-us
   target: "/about/"
   kind: page
   new_tab: false
   children:
-  - title: Contact
-    slug: contact
-    target: "/about/contact/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/about/contact"
-    file: content/en/pages/about/contact/_index.html
-  - title: Transparency
-    slug: transparency
-    target: "/about/transparency/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/about/transparency"
-    file: content/en/pages/about/transparency/_index.html
   - title: About Us
     slug: about-us
     target: "/about/about-1/"
@@ -43,6 +25,24 @@ items:
     descendants_targets: []
     path: "/pages/about/about-1"
     file: content/en/pages/about/about-1/_index.html
+  - title: Contact
+    slug: contact
+    target: "/about/contact/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about/contact"
+    file: content/en/pages/about/contact/_index.html
+  - title: Finances
+    slug: finances
+    target: "/about/transparency/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about/transparency"
+    file: content/en/pages/about/transparency/_index.html
   descendants_targets:
   - "/about/about-1/"
   - "/about/contact/"
@@ -55,8 +55,8 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Volunteer
-    slug: volunteer
+  - title: Contribute
+    slug: contribute
     target: "/volunteer/"
     kind: page
     new_tab: false
@@ -73,19 +73,9 @@ items:
     descendants_targets: []
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
-  - title: Webinar
-    slug: webinar
-    target: "/webinar/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/webinar"
-    file: content/en/pages/webinar/_index.html
   descendants_targets:
   - "/donate/"
   - "/volunteer/"
-  - "/webinar/"
 - title: For Organisations
   slug: for-organisations
   target: ''
@@ -128,16 +118,6 @@ items:
     descendants_targets: []
     path: "/pages/join-us-on-element-matrix"
     file: content/en/pages/join-us-on-element-matrix/_index.html
-  - title: Webinars
-    slug: webinars
-    target: "/webinar/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/webinar"
-    file: content/en/pages/webinar/_index.html
   descendants_targets:
   - "/join-us-on-element-matrix/"
-  - "/webinar/"
 
