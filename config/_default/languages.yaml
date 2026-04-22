@@ -2,7 +2,7 @@
 
 en:
   title: >-
-    No To Big Tech
+    No To Big Tech | Fighting Back Against Big Tech
   contentDir: content/en
   languageCode: en
   languageName: English
@@ -12,9 +12,9 @@ en:
       emails:
         email:
           label: >-
-            matt@degoogle.online
+            hello@notobigtech.org
           value: >-
-            mailto:matt@degoogle.online
+            mailto:hello@notobigtech.org
 
   taxonomies:
     administrator: administrators
