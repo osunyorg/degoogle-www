@@ -1,8 +1,8 @@
 ---
 title: Main menu
 items:
-- title: Webinars
-  slug: webinars
+- title: DeGoogle Webinars
+  slug: degoogle-webinars
   target: "/webinar/"
   kind: page
   new_tab: false
@@ -76,33 +76,23 @@ items:
   descendants_targets:
   - "/donate/"
   - "/volunteer/"
-- title: For Organisations
-  slug: for-organisations
+- title: Resources
+  slug: resources
   target: ''
   kind: blank
   new_tab: false
   children:
-  - title: Get Help
-    slug: get-help
-    target: "/get-help/"
+  - title: Other Big Tech Movements
+    slug: other-big-tech-movements
+    target: "/anti-big-tech-movements-around-the-world/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/get-help"
-    file: content/en/pages/get-help/_index.html
-  - title: Take the DeGoogle Pledge
-    slug: take-the-degoogle-pledge
-    target: "/take-the-degoogle-pledge/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/take-the-degoogle-pledge"
-    file: content/en/pages/take-the-degoogle-pledge/_index.html
+    path: "/pages/anti-big-tech-movements-around-the-world"
+    file: content/en/pages/anti-big-tech-movements-around-the-world/_index.html
   descendants_targets:
-  - "/get-help/"
-  - "/take-the-degoogle-pledge/"
+  - "/anti-big-tech-movements-around-the-world/"
 - title: Join Us
   slug: join-us
   target: ''
