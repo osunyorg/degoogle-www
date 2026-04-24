@@ -15,22 +15,22 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/contact/"
+from = "/contact/index.html"
 to = "/about/contact/"
 
 [[redirects]]
-from = "/artemis-bear/"
+from = "/artemis-bear/index.html"
 to = "/persons/artemis-bear/"
 
 [[redirects]]
-from = "/kimwei-mccarthy/"
+from = "/kimwei-mccarthy/index.html"
 to = "/persons/kimwei-mccarthy/"
 
 [[redirects]]
-from = "/matt-tutt/"
+from = "/matt-tutt/index.html"
 to = "/persons/matt-tutt/"
 
 [[redirects]]
-from = "/matt-tutt/posts/"
+from = "/matt-tutt/posts/index.html"
 to = "/persons/matt-tutt/posts/"
 
