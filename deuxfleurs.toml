@@ -13,3 +13,24 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/contact/index.html"
+to = "/about/contact/"
+
+[[redirects]]
+from = "/artemis-bear/index.html"
+to = "/persons/artemis-bear/"
+
+[[redirects]]
+from = "/kimwei-mccarthy/index.html"
+to = "/persons/kimwei-mccarthy/"
+
+[[redirects]]
+from = "/matt-tutt/index.html"
+to = "/persons/matt-tutt/"
+
+[[redirects]]
+from = "/matt-tutt/posts/index.html"
+to = "/persons/matt-tutt/posts/"
+
