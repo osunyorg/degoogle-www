@@ -15,22 +15,190 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/anti-big-tech-movements-around-the-world/index.html"
+to = "/en/anti-big-tech-movements-around-the-world/"
+
+[[redirects]]
+from = "/persons/marina-moya/index.html"
+to = "/en/persons/marina-moya/"
+
+[[redirects]]
+from = "/posts/2026-02-13-google-works-with-ice-in-the-us/index.html"
+to = "/en/posts/2026-02-13-google-works-with-ice-in-the-us/"
+
+[[redirects]]
+from = "/exhibitions/index.html"
+to = "/en/exhibitions/"
+
+[[redirects]]
+from = "/posts/index.html"
+to = "/en/posts/"
+
+[[redirects]]
+from = "/about/contact/index.html"
+to = "/en/about/contact/"
+
+[[redirects]]
+from = "/thanks/index.html"
+to = "/en/thanks/"
+
+[[redirects]]
+from = "/projects/index.html"
+to = "/en/projects/"
+
+[[redirects]]
+from = "/organizations/index.html"
+to = "/en/organizations/"
+
+[[redirects]]
+from = "/about/transparency/index.html"
+to = "/en/about/transparency/"
+
+[[redirects]]
+from = "/persons/index.html"
+to = "/en/persons/"
+
+[[redirects]]
+from = "/persons/artemis-bear/index.html"
+to = "/en/persons/artemis-bear/"
+
+[[redirects]]
+from = "/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/index.html"
+to = "/en/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/"
+
+[[redirects]]
 from = "/contact/index.html"
-to = "/about/contact/"
+to = "/en/about/contact/"
+
+[[redirects]]
+from = "/take-the-degoogle-pledge/index.html"
+to = "/en/take-the-degoogle-pledge/"
+
+[[redirects]]
+from = "/why-degoogle/index.html"
+to = "/en/why-degoogle/"
+
+[[redirects]]
+from = "/posts/google-is-a-monopoly/index.html"
+to = "/en/posts/google-is-a-monopoly/"
+
+[[redirects]]
+from = "/join-us-on-element-matrix/index.html"
+to = "/en/join-us-on-element-matrix/"
+
+[[redirects]]
+from = "/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/index.html"
+to = "/en/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/"
+
+[[redirects]]
+from = "/about/about-1/index.html"
+to = "/en/about/about-1/"
+
+[[redirects]]
+from = "/exhibitions/exhibitions-archives/index.html"
+to = "/en/exhibitions/exhibitions-archives/"
+
+[[redirects]]
+from = "/donate/index.html"
+to = "/en/donate/"
+
+[[redirects]]
+from = "/webinar/index.html"
+to = "/en/webinar/"
+
+[[redirects]]
+from = "/persons/tom-rippon/index.html"
+to = "/en/persons/tom-rippon/"
+
+[[redirects]]
+from = "/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/index.html"
+to = "/en/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/"
+
+[[redirects]]
+from = "/sitemap/index.html"
+to = "/en/sitemap/"
 
 [[redirects]]
 from = "/artemis-bear/index.html"
-to = "/persons/artemis-bear/"
+to = "/en/persons/artemis-bear/"
+
+[[redirects]]
+from = "/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/index.html"
+to = "/en/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/"
+
+[[redirects]]
+from = "/persons/kimwei-mccarthy/index.html"
+to = "/en/persons/kimwei-mccarthy/"
+
+[[redirects]]
+from = "/persons/editors/index.html"
+to = "/en/persons/editors/"
+
+[[redirects]]
+from = "/posts/google-avoids-tax/index.html"
+to = "/en/posts/google-avoids-tax/"
+
+[[redirects]]
+from = "/posts/2026-04-22-no-to-big-tech-recommended-reading/index.html"
+to = "/en/posts/2026-04-22-no-to-big-tech-recommended-reading/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/en/agenda/"
+
+[[redirects]]
+from = "/posts/google-profits-from-surveillance/index.html"
+to = "/en/posts/google-profits-from-surveillance/"
+
+[[redirects]]
+from = "/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/index.html"
+to = "/en/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/"
+
+[[redirects]]
+from = "/posts/google-supports-genocide/index.html"
+to = "/en/posts/google-supports-genocide/"
+
+[[redirects]]
+from = "/about/index.html"
+to = "/en/about/"
+
+[[redirects]]
+from = "/persons/matt-tutt/index.html"
+to = "/en/persons/matt-tutt/"
+
+[[redirects]]
+from = "/volunteer/index.html"
+to = "/en/volunteer/"
+
+[[redirects]]
+from = "/privacy-policy/index.html"
+to = "/en/privacy-policy/"
+
+[[redirects]]
+from = "/persons/tom-rippon/posts/index.html"
+to = "/en/persons/tom-rippon/posts/"
 
 [[redirects]]
 from = "/kimwei-mccarthy/index.html"
-to = "/persons/kimwei-mccarthy/"
+to = "/en/persons/kimwei-mccarthy/"
 
 [[redirects]]
 from = "/matt-tutt/index.html"
-to = "/persons/matt-tutt/"
+to = "/en/persons/matt-tutt/"
+
+[[redirects]]
+from = "/persons/matt-tutt/posts/index.html"
+to = "/en/persons/matt-tutt/posts/"
+
+[[redirects]]
+from = "/get-help/index.html"
+to = "/en/get-help/"
 
 [[redirects]]
 from = "/matt-tutt/posts/index.html"
-to = "/persons/matt-tutt/posts/"
+to = "/en/persons/matt-tutt/posts/"
+
+[[redirects]]
+from = "/posts/google-censorship/index.html"
+to = "/en/posts/google-censorship/"
 
