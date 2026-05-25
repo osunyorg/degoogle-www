@@ -3,7 +3,7 @@ title: Main menu
 items:
 - title: DeGoogle Webinars
   slug: degoogle-webinars
-  target: "/webinar/"
+  target: "/en/webinar/"
   kind: page
   new_tab: false
   children: []
@@ -12,13 +12,13 @@ items:
   file: content/en/pages/webinar/_index.html
 - title: About Us
   slug: about-us
-  target: "/about/"
+  target: "/en/about/"
   kind: page
   new_tab: false
   children:
   - title: About Us
     slug: about-us
-    target: "/about/about-1/"
+    target: "/en/about/about-1/"
     kind: page
     new_tab: false
     children: []
@@ -27,7 +27,7 @@ items:
     file: content/en/pages/about/about-1/_index.html
   - title: Contact
     slug: contact
-    target: "/about/contact/"
+    target: "/en/about/contact/"
     kind: page
     new_tab: false
     children: []
@@ -36,7 +36,7 @@ items:
     file: content/en/pages/about/contact/_index.html
   - title: Finances
     slug: finances
-    target: "/about/transparency/"
+    target: "/en/about/transparency/"
     kind: page
     new_tab: false
     children: []
@@ -44,9 +44,9 @@ items:
     path: "/pages/about/transparency"
     file: content/en/pages/about/transparency/_index.html
   descendants_targets:
-  - "/about/about-1/"
-  - "/about/contact/"
-  - "/about/transparency/"
+  - "/en/about/about-1/"
+  - "/en/about/contact/"
+  - "/en/about/transparency/"
   path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Support Us
@@ -57,7 +57,7 @@ items:
   children:
   - title: Contribute
     slug: contribute
-    target: "/volunteer/"
+    target: "/en/volunteer/"
     kind: page
     new_tab: false
     children: []
@@ -66,7 +66,7 @@ items:
     file: content/en/pages/volunteer/_index.html
   - title: Donate
     slug: donate
-    target: "/donate/"
+    target: "/en/donate/"
     kind: page
     new_tab: false
     children: []
@@ -74,8 +74,8 @@ items:
     path: "/pages/donate"
     file: content/en/pages/donate/_index.html
   descendants_targets:
-  - "/donate/"
-  - "/volunteer/"
+  - "/en/donate/"
+  - "/en/volunteer/"
 - title: Resources
   slug: resources
   target: ''
@@ -84,7 +84,7 @@ items:
   children:
   - title: Other Big Tech Movements
     slug: other-big-tech-movements
-    target: "/anti-big-tech-movements-around-the-world/"
+    target: "/en/anti-big-tech-movements-around-the-world/"
     kind: page
     new_tab: false
     children: []
@@ -92,10 +92,10 @@ items:
     path: "/pages/anti-big-tech-movements-around-the-world"
     file: content/en/pages/anti-big-tech-movements-around-the-world/_index.html
   descendants_targets:
-  - "/anti-big-tech-movements-around-the-world/"
+  - "/en/anti-big-tech-movements-around-the-world/"
 - title: Blog
   slug: blog
-  target: "/posts/"
+  target: "/en/posts/"
   kind: page
   new_tab: false
   children: []
@@ -110,7 +110,7 @@ items:
   children:
   - title: Chat in Real-Time
     slug: chat-in-real-time
-    target: "/join-us-on-element-matrix/"
+    target: "/en/join-us-on-element-matrix/"
     kind: page
     new_tab: false
     children: []
@@ -125,6 +125,6 @@ items:
     children: []
     descendants_targets: []
   descendants_targets:
-  - "/join-us-on-element-matrix/"
+  - "/en/join-us-on-element-matrix/"
   - https://www.notobigtech.org/volunteer/
 
