@@ -4,8 +4,8 @@ en:
   title: >-
     No To Big Tech | Fighting Back Against Big Tech
   contentDir: content/en
-  languageCode: en
-  languageName: English
+  locale: en
+  label: English
   buildFuture: true
   params:
     contact_details:
@@ -36,8 +36,8 @@ es:
   title: >-
     DeGoogle & No To Big Tech
   contentDir: content/es
-  languageCode: es
-  languageName: Español
+  locale: es
+  label: Español
   buildFuture: true
   params:
     contact_details:
