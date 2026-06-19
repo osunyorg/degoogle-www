@@ -1,15 +1,6 @@
 ---
 title: Main menu
 items:
-- title: DeGoogle Webinars
-  slug: degoogle-webinars
-  target: "/en/webinar/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/webinar"
-  file: content/en/pages/webinar/_index.html
 - title: About Us
   slug: about-us
   target: "/en/about/"
@@ -82,6 +73,15 @@ items:
   kind: blank
   new_tab: false
   children:
+  - title: DeGoogle Webinars
+    slug: degoogle-webinars
+    target: "/en/webinar/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/webinar"
+    file: content/en/pages/webinar/_index.html
   - title: Other Big Tech Movements
     slug: other-big-tech-movements
     target: "/en/anti-big-tech-movements-around-the-world/"
@@ -93,6 +93,7 @@ items:
     file: content/en/pages/anti-big-tech-movements-around-the-world/_index.html
   descendants_targets:
   - "/en/anti-big-tech-movements-around-the-world/"
+  - "/en/webinar/"
 - title: Blog
   slug: blog
   target: "/en/posts/"
