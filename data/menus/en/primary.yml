@@ -82,6 +82,15 @@ items:
     descendants_targets: []
     path: "/pages/webinar"
     file: content/en/pages/webinar/_index.html
+  - title: Our Tech Stack
+    slug: our-tech-stack
+    target: "/en/our-ethical-tech-stack/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/our-ethical-tech-stack"
+    file: content/en/pages/our-ethical-tech-stack/_index.html
   - title: Other Big Tech Movements
     slug: other-big-tech-movements
     target: "/en/anti-big-tech-movements-around-the-world/"
@@ -93,6 +102,7 @@ items:
     file: content/en/pages/anti-big-tech-movements-around-the-world/_index.html
   descendants_targets:
   - "/en/anti-big-tech-movements-around-the-world/"
+  - "/en/our-ethical-tech-stack/"
   - "/en/webinar/"
 - title: Blog
   slug: blog
