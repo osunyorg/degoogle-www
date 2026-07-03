@@ -12,3 +12,7 @@ params:
   home:
     head:
       title: site
+  posts:
+    single:
+      options:
+        signature: true
