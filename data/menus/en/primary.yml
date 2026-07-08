@@ -73,8 +73,8 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: DeGoogle Webinars
-    slug: degoogle-webinars
+  - title: No To Big Tech Webinars
+    slug: no-to-big-tech-webinars
     target: "/en/webinar/"
     kind: page
     new_tab: false

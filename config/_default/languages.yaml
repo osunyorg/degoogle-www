@@ -2,7 +2,7 @@
 
 en:
   title: >-
-    No To Big Tech | Fighting Back Against Big Tech
+    No To Big Tech
   contentDir: content/en
   locale: en
   label: English
@@ -15,6 +15,12 @@ en:
             hello@notobigtech.org
           value: >-
             mailto:hello@notobigtech.org
+      social_networks:
+        mastodon:
+          label: >-
+            mastodon.social/@matttutt
+          value: >-
+            https://mastodon.social/@matttutt
 
   taxonomies:
     administrator: administrators
