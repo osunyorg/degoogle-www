@@ -18,9 +18,9 @@ en:
       social_networks:
         mastodon:
           label: >-
-            mastodon.social/@matttutt
+            todon.nl/@matttutt
           value: >-
-            https://mastodon.social/@matttutt
+            https://todon.nl/@matttutt
 
   taxonomies:
     administrator: administrators
