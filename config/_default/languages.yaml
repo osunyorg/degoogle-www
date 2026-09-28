@@ -39,13 +39,19 @@ en:
     volume: volumes
 es:
   title: >-
-    DeGoogle & No To Big Tech
+    No To Big Tech
   contentDir: content/es
   locale: es
   label: Español
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        mastodon:
+          label: >-
+            todon.nl/@matttutt
+          value: >-
+            https://todon.nl/@matttutt
 
   taxonomies:
     administrator: administrators
