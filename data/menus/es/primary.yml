@@ -8,4 +8,13 @@ items:
   new_tab: false
   children: []
   descendants_targets: []
+- title: Contacto
+  slug: contacto
+  target: "/es/contacto/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/contacto"
+  file: content/es/pages/contacto/_index.html
 
