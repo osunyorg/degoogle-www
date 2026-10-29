@@ -119,15 +119,6 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Chat in Real-Time
-    slug: chat-in-real-time
-    target: "/en/join-us-on-element-matrix/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/join-us-on-element-matrix"
-    file: content/en/pages/join-us-on-element-matrix/_index.html
   - title: Contribute
     slug: contribute
     target: https://www.notobigtech.org/volunteer/
@@ -136,6 +127,5 @@ items:
     children: []
     descendants_targets: []
   descendants_targets:
-  - "/en/join-us-on-element-matrix/"
   - https://www.notobigtech.org/volunteer/
 
