@@ -40,33 +40,6 @@ items:
   - "/en/about/transparency/"
   path: "/pages/about"
   file: content/en/pages/about/_index.html
-- title: Support Us
-  slug: support-us
-  target: ''
-  kind: blank
-  new_tab: false
-  children:
-  - title: Contribute
-    slug: contribute
-    target: "/en/volunteer/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/volunteer"
-    file: content/en/pages/volunteer/_index.html
-  - title: Donate
-    slug: donate
-    target: "/en/donate/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/donate"
-    file: content/en/pages/donate/_index.html
-  descendants_targets:
-  - "/en/donate/"
-  - "/en/volunteer/"
 - title: Resources
   slug: resources
   target: ''
@@ -104,6 +77,31 @@ items:
   - "/en/anti-big-tech-movements-around-the-world/"
   - "/en/our-ethical-tech-stack/"
   - "/en/webinar/"
+- title: Join Us
+  slug: join-us
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Donate
+    slug: donate
+    target: "/en/donate/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/donate"
+    file: content/en/pages/donate/_index.html
+  - title: Contribute
+    slug: contribute
+    target: https://www.notobigtech.org/volunteer/
+    kind: url
+    new_tab: false
+    children: []
+    descendants_targets: []
+  descendants_targets:
+  - "/en/donate/"
+  - https://www.notobigtech.org/volunteer/
 - title: Blog
   slug: blog
   target: "/en/posts/"
@@ -113,19 +111,13 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
-- title: Join Us
-  slug: join-us
-  target: ''
-  kind: blank
+- title: Contact
+  slug: contact
+  target: "/en/about/contact/"
+  kind: page
   new_tab: false
-  children:
-  - title: Contribute
-    slug: contribute
-    target: https://www.notobigtech.org/volunteer/
-    kind: url
-    new_tab: false
-    children: []
-    descendants_targets: []
-  descendants_targets:
-  - https://www.notobigtech.org/volunteer/
+  children: []
+  descendants_targets: []
+  path: "/pages/about/contact"
+  file: content/en/pages/about/contact/_index.html
 
