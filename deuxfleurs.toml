@@ -19,10 +19,6 @@ from = "/anti-big-tech-movements-around-the-world/index.html"
 to = "/en/anti-big-tech-movements-around-the-world/"
 
 [[redirects]]
-from = "/persons/marina-moya/index.html"
-to = "/en/persons/marina-moya/"
-
-[[redirects]]
 from = "/posts/2026-02-13-google-works-with-ice-in-the-us/index.html"
 to = "/en/posts/2026-02-13-google-works-with-ice-in-the-us/"
 
@@ -57,10 +53,6 @@ to = "/en/about/transparency/"
 [[redirects]]
 from = "/persons/index.html"
 to = "/en/persons/"
-
-[[redirects]]
-from = "/persons/artemis-bear/index.html"
-to = "/en/persons/artemis-bear/"
 
 [[redirects]]
 from = "/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/index.html"
@@ -107,10 +99,6 @@ from = "/webinar/index.html"
 to = "/en/webinar/"
 
 [[redirects]]
-from = "/persons/tom-rippon/index.html"
-to = "/en/persons/tom-rippon/"
-
-[[redirects]]
 from = "/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/index.html"
 to = "/en/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/"
 
@@ -119,16 +107,8 @@ from = "/sitemap/index.html"
 to = "/en/sitemap/"
 
 [[redirects]]
-from = "/artemis-bear/index.html"
-to = "/en/persons/artemis-bear/"
-
-[[redirects]]
 from = "/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/index.html"
 to = "/en/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/"
-
-[[redirects]]
-from = "/persons/kimwei-mccarthy/index.html"
-to = "/en/persons/kimwei-mccarthy/"
 
 [[redirects]]
 from = "/persons/editors/index.html"
@@ -176,11 +156,7 @@ to = "/en/privacy-policy/"
 
 [[redirects]]
 from = "/persons/tom-rippon/posts/index.html"
-to = "/en/persons/tom-rippon/posts/"
-
-[[redirects]]
-from = "/kimwei-mccarthy/index.html"
-to = "/en/persons/kimwei-mccarthy/"
+to = ""
 
 [[redirects]]
 from = "/matt-tutt/index.html"
