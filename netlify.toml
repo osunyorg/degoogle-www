@@ -13,185 +13,240 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff" 
+    X-Content-Type-Options = "nosniff"
+
+# One [[headers]] block per glob — "for" must be a string, not an array
+[[headers]]
+  for = "**/*.woff2"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.woff"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.svg"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.ttf"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.otf"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.eot"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.js"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.css"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.png"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.jpg"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.jpeg"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.gif"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
+
+[[headers]]
+  for = "**/*.webp"
+  [headers.values]
+    Cache-Control = "max-age=31536000, no-transform, public"
 
 [[cors]]
-allowed_origins = "*"
-allowed_methods = ["GET", "POST"]
-allowed_headers = "*"
-
-[[headers]]
-for = ["**/*.woff2", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.otf", "**/*.eot", "**/*.js", "**/*.css"]
-compress = "gzip"
-[headers.values]
-Cache-Control = "max-age=31536000, no-transform, public"
-
-[[headers]]
-for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
-[headers.values]
-Cache-Control = "max-age=31536000, no-transform, public"
+  allowed_origins = "*"
+  allowed_methods = ["GET", "POST"]
+  allowed_headers = "*"
 
 [[redirects]]
-from = "/anti-big-tech-movements-around-the-world/index.html"
-to = "/en/anti-big-tech-movements-around-the-world/"
+  from = "/anti-big-tech-movements-around-the-world/index.html"
+  to = "/en/anti-big-tech-movements-around-the-world/"
 
 [[redirects]]
-from = "/posts/2026-02-13-google-works-with-ice-in-the-us/index.html"
-to = "/en/posts/2026-02-13-google-works-with-ice-in-the-us/"
+  from = "/posts/2026-02-13-google-works-with-ice-in-the-us/index.html"
+  to = "/en/posts/2026-02-13-google-works-with-ice-in-the-us/"
 
 [[redirects]]
-from = "/exhibitions/index.html"
-to = "/en/exhibitions/"
+  from = "/exhibitions/index.html"
+  to = "/en/exhibitions/"
 
 [[redirects]]
-from = "/posts/index.html"
-to = "/en/posts/"
+  from = "/posts/index.html"
+  to = "/en/posts/"
 
 [[redirects]]
-from = "/about/contact/index.html"
-to = "/en/about/contact/"
+  from = "/about/contact/index.html"
+  to = "/en/about/contact/"
 
 [[redirects]]
-from = "/thanks/index.html"
-to = "/en/thanks/"
+  from = "/thanks/index.html"
+  to = "/en/thanks/"
 
 [[redirects]]
-from = "/projects/index.html"
-to = "/en/projects/"
+  from = "/projects/index.html"
+  to = "/en/projects/"
 
 [[redirects]]
-from = "/organizations/index.html"
-to = "/en/organizations/"
+  from = "/organizations/index.html"
+  to = "/en/organizations/"
 
 [[redirects]]
-from = "/about/transparency/index.html"
-to = "/en/about/transparency/"
+  from = "/about/transparency/index.html"
+  to = "/en/about/transparency/"
 
 [[redirects]]
-from = "/persons/index.html"
-to = "/en/persons/"
+  from = "/persons/index.html"
+  to = "/en/persons/"
 
 [[redirects]]
-from = "/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/index.html"
-to = "/en/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/"
+  from = "/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/index.html"
+  to = "/en/posts/2025-10-29-google-found-to-avoid-3-billion-in-taxes-in-poorer-nations/"
 
 [[redirects]]
-from = "/contact/index.html"
-to = "/en/about/contact/"
+  from = "/contact/index.html"
+  to = "/en/about/contact/"
 
 [[redirects]]
-from = "/take-the-degoogle-pledge/index.html"
-to = "/en/take-the-degoogle-pledge/"
+  from = "/take-the-degoogle-pledge/index.html"
+  to = "/en/take-the-degoogle-pledge/"
 
 [[redirects]]
-from = "/why-degoogle/index.html"
-to = "/en/why-degoogle/"
+  from = "/why-degoogle/index.html"
+  to = "/en/why-degoogle/"
 
 [[redirects]]
-from = "/posts/google-is-a-monopoly/index.html"
-to = "/en/posts/google-is-a-monopoly/"
+  from = "/posts/google-is-a-monopoly/index.html"
+  to = "/en/posts/google-is-a-monopoly/"
 
 [[redirects]]
-from = "/join-us-on-element-matrix/index.html"
-to = "/en/join-us-on-element-matrix/"
+  from = "/join-us-on-element-matrix/index.html"
+  to = "/en/join-us-on-element-matrix/"
 
 [[redirects]]
-from = "/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/index.html"
-to = "/en/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/"
+  from = "/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/index.html"
+  to = "/en/posts/2025-10-29-google-maps-blocks-users-leaving-reviews-about-the-gulf-of-mexico/"
 
 [[redirects]]
-from = "/about/about-1/index.html"
-to = "/en/about/about-1/"
+  from = "/about/about-1/index.html"
+  to = "/en/about/about-1/"
 
 [[redirects]]
-from = "/exhibitions/exhibitions-archives/index.html"
-to = "/en/exhibitions/exhibitions-archives/"
+  from = "/exhibitions/exhibitions-archives/index.html"
+  to = "/en/exhibitions/exhibitions-archives/"
 
 [[redirects]]
-from = "/donate/index.html"
-to = "/en/donate/"
+  from = "/donate/index.html"
+  to = "/en/donate/"
 
 [[redirects]]
-from = "/webinar/index.html"
-to = "/en/webinar/"
+  from = "/webinar/index.html"
+  to = "/en/webinar/"
 
 [[redirects]]
-from = "/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/index.html"
-to = "/en/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/"
+  from = "/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/index.html"
+  to = "/en/posts/2025-10-30-google-supplied-ai-cloud-services-to-the-israel-government-used-as-part-of-the-genocide/"
 
 [[redirects]]
-from = "/sitemap/index.html"
-to = "/en/sitemap/"
+  from = "/sitemap/index.html"
+  to = "/en/sitemap/"
 
 [[redirects]]
-from = "/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/index.html"
-to = "/en/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/"
+  from = "/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/index.html"
+  to = "/en/posts/2025-10-29-google-collects-a-lot-of-data-about-you-to-sell-to-advertisers/"
 
 [[redirects]]
-from = "/persons/editors/index.html"
-to = "/en/persons/editors/"
+  from = "/persons/editors/index.html"
+  to = "/en/persons/editors/"
 
 [[redirects]]
-from = "/posts/google-avoids-tax/index.html"
-to = "/en/posts/google-avoids-tax/"
+  from = "/posts/google-avoids-tax/index.html"
+  to = "/en/posts/google-avoids-tax/"
 
 [[redirects]]
-from = "/posts/2026-04-22-no-to-big-tech-recommended-reading/index.html"
-to = "/en/posts/2026-04-22-no-to-big-tech-recommended-reading/"
+  from = "/posts/2026-04-22-no-to-big-tech-recommended-reading/index.html"
+  to = "/en/posts/2026-04-22-no-to-big-tech-recommended-reading/"
 
 [[redirects]]
-from = "/agenda/index.html"
-to = "/en/agenda/"
+  from = "/agenda/index.html"
+  to = "/en/agenda/"
 
 [[redirects]]
-from = "/posts/google-profits-from-surveillance/index.html"
-to = "/en/posts/google-profits-from-surveillance/"
+  from = "/posts/google-profits-from-surveillance/index.html"
+  to = "/en/posts/google-profits-from-surveillance/"
 
 [[redirects]]
-from = "/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/index.html"
-to = "/en/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/"
+  from = "/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/index.html"
+  to = "/en/posts/2025-10-29-google-is-an-online-advertising-monopoly-us-judge-ruling/"
 
 [[redirects]]
-from = "/posts/google-supports-genocide/index.html"
-to = "/en/posts/google-supports-genocide/"
+  from = "/posts/google-supports-genocide/index.html"
+  to = "/en/posts/google-supports-genocide/"
 
 [[redirects]]
-from = "/about/index.html"
-to = "/en/about/"
+  from = "/about/index.html"
+  to = "/en/about/"
 
 [[redirects]]
-from = "/persons/matt-tutt/index.html"
-to = "/en/persons/matt-tutt/"
+  from = "/persons/matt-tutt/index.html"
+  to = "/en/persons/matt-tutt/"
 
 [[redirects]]
-from = "/volunteer/index.html"
-to = "/en/volunteer/"
+  from = "/volunteer/index.html"
+  to = "/en/volunteer/"
 
 [[redirects]]
-from = "/privacy-policy/index.html"
-to = "/en/privacy-policy/"
+  from = "/privacy-policy/index.html"
+  to = "/en/privacy-policy/"
+
+# NOTE: original had `to = ""` (empty destination is invalid) — set a real target then uncomment
+# [[redirects]]
+#   from = "/persons/tom-rippon/posts/index.html"
+#   to = "/en/persons/tom-rippon/posts/"
 
 [[redirects]]
-from = "/persons/tom-rippon/posts/index.html"
-to = ""
+  from = "/matt-tutt/index.html"
+  to = "/en/persons/matt-tutt/"
 
 [[redirects]]
-from = "/matt-tutt/index.html"
-to = "/en/persons/matt-tutt/"
+  from = "/persons/matt-tutt/posts/index.html"
+  to = "/en/persons/matt-tutt/posts/"
 
 [[redirects]]
-from = "/persons/matt-tutt/posts/index.html"
-to = "/en/persons/matt-tutt/posts/"
+  from = "/get-help/index.html"
+  to = "/en/get-help/"
 
 [[redirects]]
-from = "/get-help/index.html"
-to = "/en/get-help/"
+  from = "/matt-tutt/posts/index.html"
+  to = "/en/persons/matt-tutt/posts/"
 
 [[redirects]]
-from = "/matt-tutt/posts/index.html"
-to = "/en/persons/matt-tutt/posts/"
-
-[[redirects]]
-from = "/posts/google-censorship/index.html"
-to = "/en/posts/google-censorship/"
-
+  from = "/posts/google-censorship/index.html"
+  to = "/en/posts/google-censorship/"
