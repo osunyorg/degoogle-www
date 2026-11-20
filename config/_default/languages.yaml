@@ -21,11 +21,6 @@ en:
             todon.nl/@matttutt
           value: >-
             https://todon.nl/@matttutt
-        youtube:
-          label: >-
-            NoToBigTech
-          value: >-
-            https://www.youtube.com/@NoToBigTech
 
   taxonomies:
     administrator: administrators
