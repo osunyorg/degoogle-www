@@ -5,8 +5,15 @@
 [build.environment]
   HUGO_VERSION = "0.165.0"
 
+# Branch deploys and deploy previews build with the STAGING Hugo environment,
+# which uses config/staging/config.yaml, and pin the staging baseURL explicitly.
 [context.branch-deploy.environment]
   HUGO_ENV = "staging"
+  HUGO_BASEURL = "https://staging-notobigtech.netlify.app/"
+
+[context.deploy-preview.environment]
+  HUGO_ENV = "staging"
+  HUGO_BASEURL = "https://staging-notobigtech.netlify.app/"
 
 [[headers]]
   for = "/*"
